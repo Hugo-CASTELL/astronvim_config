@@ -20,6 +20,10 @@ return {
     ["<leader>b"] = { name = "Buffers" },
     -- quick save
     -- ["<C-s>"] = { ":w!<cr>", desc = "Save File" },  -- change description but the same command
+
+    ["<C-Y>"] = { "\"0p<ESC>", desc="Print yanked (custom)" },
+    ["<C-U>"] = { "<C-U>zz", desc="Jump half page up (custom)" },
+    ["<C-D>"] = { "<C-D>zz", desc="Jump half page down (custom)" },
   },
   t = {
     -- setting a mapping to false will disable it
