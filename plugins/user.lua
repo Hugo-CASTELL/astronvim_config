@@ -1,4 +1,8 @@
 return {
+  {
+    "f-person/git-blame.nvim",
+    event = "VeryLazy",
+  },
   -- You can also add new plugins here as well:
   -- Add plugins, the lazy syntax
   -- "andweeb/presence.nvim",
