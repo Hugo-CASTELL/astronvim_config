@@ -9,4 +9,5 @@ return {
   { import = "astrocommunity.colorscheme.rose-pine" },
   { import = "astrocommunity.colorscheme.everforest" },
   { import = "astrocommunity.colorscheme.poimandres" },
+  { import = "astrocommunity.utility.transparent-nvim", enabled = true },
 }
